@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/from"
+    android:layout_height="match_parent"
+    tools:context="from.FromFragment">
+
+
+    <EditText
+        android:id="@+id/et_text1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="start"
+        android:layout_marginTop="20dp"
+        android:hint="@string/editext"
+        android:inputType="text|textPersonName"
+        android:padding="70dp"
+        android:textSize="@dimen/size"
+        android:textColor="@color/hint_color"
+        android:textColorHint="@color/hint_color"
+        android:paddingStart="20dp" />
+
+    <TextView
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="15dp"
+        android:textSize="@dimen/sixteen"
+        android:textColor="@color/save"
+        android:paddingStart="20dp"
+        android:text="@string/save_open" />
+
+    <View
+        android:background="@drawable/ic_arrow_back_24"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="35dp"
+        android:layout_height="28dp"/>
+
+</FrameLayout>
